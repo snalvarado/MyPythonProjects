@@ -1,0 +1,5 @@
+n1=int(input("Ingrese su edad "))
+if n1>=18:
+  print("Hola,  usted es mayor de edad, no olvide pagar a la SAT :)")
+else:
+  print("Hola,  usted es menor de edad, no olvide obecer a sus papas :,)")
