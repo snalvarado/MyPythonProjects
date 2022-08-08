@@ -1,0 +1,19 @@
+print("OFERTAS LA TORRE")
+p1=str(input("Ingrese  producto: "))
+pr=float(input("Ingrese precio del  producto: "))
+c=int(input("Ingrese cantidad del producto: "))
+d=0.25
+if c>=5:
+  print("El precio regular es de: ")
+  print(pr)
+  pd=pr*d
+  print("Usted ahorro: ")
+  print(pd)
+  pd=pr*d
+  dt=pr-pd
+  print("El precio con descuento es: ")
+  print(dt)
+
+else:
+  print("No aplica el descuento, el precio es: ")
+  print(pr)
