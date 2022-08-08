@@ -1,0 +1,5 @@
+n1=int(input("Ingrese un numero por favor: "))
+if n1%2== 0:
+ print("El numero que ingreso es par :)")
+else:
+  print("El numero que ingreso no es par :(")
