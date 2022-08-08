@@ -1,0 +1,6 @@
+print("AVERIGUA SI GANASTE EL PREMIO")
+n1=int(input("Ingrese su número: "))
+if n1==1000:
+  print("¡Ganaste un premio!")
+else:
+  print("Gracias por participar, no ganaste el premio.")
