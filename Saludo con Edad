@@ -1,0 +1,4 @@
+n=str(input("Ingrese su nombre: "))
+a=int(input("Ingrese su año de nacimiento: "))
+age=2022-a
+print("Hola "+n+ ", tienes "+str(age)+ " años, ¿Cómo estás? :)")
