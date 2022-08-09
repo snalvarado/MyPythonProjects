@@ -1,0 +1,9 @@
+frutas=["sandía", "naranja","banano","fresa","maracuya","pitaya","papaya","mango","mango verde"]
+for fruta in frutas:
+  print(fruta)
+
+for letra in "Gabriel":
+  print(letra)
+
+for x in range (-20,0,2):
+ print(x)
