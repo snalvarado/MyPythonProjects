@@ -1,0 +1,25 @@
+print("MENSAJE PARA TU SEMANA")
+n=int(input('''Ingrese un día de la semana:
+1. Lunes
+2. Martes
+3. Miércoles
+4. Jueves
+5. Viernes
+6. Sábado
+7. Domingo
+'''))
+
+if n==1:
+  print("Feliz incio de semana")
+
+if n==2 or n==3 or n==4:
+  print("Ánimo, esta es tu semana, tú puedes :)")
+
+if n==5:
+  print("Es viernes y el cuerpo lo sabe!")
+
+if n==6 or n==7:
+  print("Feliz fin de semana, ve por un helado :)")
+
+else: 
+  print("La opción no es válida")
