@@ -1,0 +1,8 @@
+ob=str(input("Ingrese objetos: "))
+lista=[]
+cl="fin"
+while ob!=cl:
+ ob=str(input("Continue :): "))
+ lista.append(ob)
+else:
+  print(lista)
