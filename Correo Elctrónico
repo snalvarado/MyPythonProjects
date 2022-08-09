@@ -1,0 +1,12 @@
+#Usuario ingresa su nombre
+n1=str(input("Ingrese su primer nombre: "))
+n2=str(input("Ingrese su segundo nombre: "))
+a1=str(input("Ingrese su prmer apellido: "))
+a2=str(input("Ingrese su segundo nombre: "))
+#se extraen las primeras letras del los nombres
+c1=n1[0]
+c2=n2[0]
+#se  juntan las primeras letras de los nombres con los apellidos completos y el @
+cj=(c1+c2+str(".")+a1+a2+str("@baco.com"))
+#se imprime el correo
+print(cj.lower())
