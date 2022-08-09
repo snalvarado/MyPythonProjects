@@ -1,0 +1,6 @@
+t=str(input('''Ingrese un texto:
+'''))
+l=str(input('''Ingrese un cáracter:
+'''))
+r = t.count(str(l))
+print("Se encontraron: "+str(r)+str(" ")+str(l))
