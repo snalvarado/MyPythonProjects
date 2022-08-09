@@ -1,0 +1,12 @@
+#se pide una palabra
+p=str(input("Ingrese una palabra: "))
+#se extrae la primera letra de lapalabra
+pl=p[0]
+#se pone en minuscula para poder comparar
+pll=pl.lower()
+#se condiciona evaluando si es alguna vocal
+if pll=="a" or pll=="e" or pll=="i" or pll=="o" or pll=="u":
+ print("Es vocal")
+  #si no es ninguna vocal, se imprime consonante
+else:
+  print("Es consonante")
