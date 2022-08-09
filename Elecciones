@@ -1,0 +1,19 @@
+print("ELECCIONES")
+ce=str(input('''¿Por qué candidato le gustaría votar?
+A. Partido Rojo
+B. Partido Verde
+C. Partido Azul
+Ingrese la letra de su candidato: '''))
+
+
+if ce=="A" or ce=="a":
+  print("Usted ha votado por el partido Rojo")
+
+if ce=="B" or ce=="b" :
+  print("Usted ha votado por el partido Verde")
+
+if ce=="C" or ce=="c":
+  print("Usted ha votado por el partido Azul")
+
+if ce!="A" and ce!="a" and ce!="B" and ce!="b" and ce!="C" and ce!="c":
+  print("Opción errónea")
