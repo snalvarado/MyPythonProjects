@@ -1,0 +1,23 @@
+#Pide al usuario que ingrese los numeros
+n=int(input("Ingrese numeros: "))
+#Agrega a una lista los numeros
+lista=[]
+lista.append(n)
+#Agraga a una lista los numeros
+#Crea un ciclo para aceptar 10 numeros
+while (len(lista))<=9:
+ n=int(input("Continue: "))
+ lista.append(n)
+else:
+#cuando la lista llega a 10, saca el primer y el ultimo numero
+  res1 = [lista[0], lista[-1] ]  
+#suma el primer y el ultimo numero
+  suma1=sum(res1)
+#imprime la suma
+  print("La suma del primer y el último numero es de: "+str(suma1))
+#elimina el primer y el ultimo numero de la lista
+  res2=lista.pop(0)
+res22=lista.pop(-1)
+#suma los numeros restantes
+suma2=sum(lista)
+print("La suma del segundo al noveno numero es de: "+str(suma2))
