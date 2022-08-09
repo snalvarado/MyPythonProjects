@@ -1,0 +1,13 @@
+s=str(input('''Ingrese un texto:
+'''))
+rev = s[::-1]
+revs=rev.strip()
+brev= revs.replace(' ', '')
+
+snw=s.strip()
+srw= snw.replace(' ', '')
+
+if brev==srw:
+  print("Es palindromo")
+else:
+  print("No es palindromo")
