@@ -1,0 +1,14 @@
+notas=[88,67,55,63,30,51,59,98,32]
+
+
+
+iterar = 0
+
+largoLista=len(notas) 
+
+
+
+while iterar < largoLista:
+  if notas[iterar]>60:
+   print("Notas: ",notas[iterar])
+  iterar += 1
