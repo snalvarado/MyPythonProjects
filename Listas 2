@@ -1,0 +1,53 @@
+f1=[1,5,4]
+f2=[1,3,2]
+f3=[1,2,1]
+
+#Tarea 1:Comprobar que todas las listas tienen el mismo largo
+if (len(f1))==(len(f2)) and (len(f2))==(len(f3)):
+ # print("Iguales")
+
+
+#Tarea 2: Sumar el primer y el ultimo numero de cada variable
+
+ res1 = [ f1[0], f1[-1] ]  
+sum1=sum(res1)
+#print(sum1)
+
+res2 = [ f2[0], f2[-1] ]  
+sum2=sum(res2)
+#print(sum2)
+
+res3 = [ f3[0], f3[-1] ]  
+sum3=sum(res3)
+#print(sum3)
+
+sumf=sum1+sum2+sum3
+#print(sumf)
+
+#Tarea 3: Sumar todos los numero que esten en la lista que no sean el primero y el ultimo
+
+f1p=f1.pop(0)
+f1u=f1.pop(-1)
+sum11=sum(f1)
+#print(sum11)
+
+f2p=f2.pop(0)
+f2u=f2.pop(-1)
+sum22=sum(f2)
+#print(sum22)
+
+f3p=f3.pop(0)
+f3u=f3.pop(-1)
+sum33=sum(f3)
+#print(sum33)
+
+sumf2=sum11+sum22+sum33
+#print(sumf2)
+
+
+#Tarea 4 : Restar los resultados obtenidos de las tareas 2 y 3 
+r=sumf-sumf2
+
+
+#Tarea 5: Mostrar el resultado
+print(r)
