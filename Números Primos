@@ -1,0 +1,15 @@
+n=int(input("Ingrese un número: "))
+contador =1 #aumenta hasta que llegue a n
+divisores=0 #numero de divisores que tiene n
+
+while contador<=n: #hasta que alcance a n
+  residuo=n%contador #residuo n/c
+  if residuo ==0:
+    divisores=divisores+1 #aumenta solo si r es 0
+  contador=contador+1 #siempre aumenta
+    
+if divisores==2: #si n tiene 2 divisores
+  print("Es primo")
+
+else:
+  print("No es primo")
