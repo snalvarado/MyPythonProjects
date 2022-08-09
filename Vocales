@@ -1,0 +1,8 @@
+print("¿ES UNA VOCAL?")
+l=str(input("Ingrese una letra: "))
+if len(l)!=1:
+  print("Ingrese solo una letra por favor ")
+if l=="a" or l=="A" or l=="e" or l=="E" or l=="i" or l=="o" or l=="O" or l=="I" or l=="u" or l=="U":
+  print("Es una vocal :) ")
+else:
+  print("Opción errónea")
