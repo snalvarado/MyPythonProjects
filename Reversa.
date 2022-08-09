@@ -1,0 +1,4 @@
+s=str(input('''Ingrese un texto:
+'''))
+rev = s[::-1]
+print(rev)
