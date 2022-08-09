@@ -1,0 +1,7 @@
+#se pide al usuario los numeros
+n=int(input("Ingrese un numero: "))
+r=int(input("Ingrese un numero: "))
+#se eleva n a la fraccion de r
+raiz=n**(1/r)
+#se imprime
+print(raiz)
