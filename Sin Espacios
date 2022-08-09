@@ -1,0 +1,4 @@
+s=str(input("Ingrese una oracion: "))
+slower=s.lower()
+stripp=slower.strip()
+print(stripp.replace(' ', ''))
