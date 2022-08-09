@@ -1,0 +1,12 @@
+print("¿COINCIDENCIA EN LOS NOMBRES?")
+n1=str(input("Ingrese un nombre: "))
+n2=str(input("Ingrese un nombre: "))
+pl = n1[0]
+ul = n1[-1]
+pl2 = n2[0]
+ul2 = n2[-1]
+
+if pl==pl2 or ul==ul2:
+  print("Coincidencia")
+else:
+ print("No hay coincidencia")
