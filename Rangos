@@ -1,0 +1,10 @@
+#Pide al usuario un número
+n=int(input("Ingrese un número: "))
+#Horizontalmente X va desde el rango 0 hasta n(el número ingresado)
+for x in range (0,n):  
+#Por cada 1 que haya horizontalmente en X, se le sumará 1 verticalmente (y)
+  for y in range (0, x+1):
+#Se indica que lo que se debe de imprimir es un numeral y se pide un salto de linea cada que se cumpla lo de arriba
+   print("# ", end="")
+#Se imprime 
+  print()
