@@ -1,0 +1,5 @@
+def suma (x,y):
+  r=x+y
+  print(r)
+
+suma(50,25)
