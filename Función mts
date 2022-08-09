@@ -1,0 +1,5 @@
+def mts (x,y):
+  r=x*y
+  print(r)
+  
+mts(20,20)
