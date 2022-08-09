@@ -1,0 +1,10 @@
+#Indica nombre del programa
+print("CALCULO DE VOLUMEN DE CILINDRO")
+#Pide la altura
+a=float(input("Ingrese la altura del cilindro: "))
+#Pide el radio
+r=float(input("Ingrese el radio del cilindro: "))
+#se ingresa la formula
+v=((r*r)*3.14)*a
+#se imprime el resultado
+print(v)
