@@ -1,0 +1,36 @@
+o=int(input('''1.Calculo de velociadad
+2.Calculo de distancia
+3.Calculo de tiempo
+'''))
+if o==1:
+  print('''
+CALCULO DE VELOCIDAD''')
+  d=float(input('''Ingrese la distancia
+'''))
+  t=float(input('''Ingrese el tiempo
+'''))
+  v=d/t
+  print(v)
+
+if o==2:
+  print('''
+CALCULO DE DISTANCIA''')
+  v=float(input('''Ingrese la velocidad
+'''))
+  t=float(input('''Ingrese el tiempo
+'''))
+  d=v*t
+  print(d)
+  
+if o==3:
+  print('''
+CALCULO DE TIEMPO''')
+  d=float(input('''Ingrese la distancia
+'''))
+  v=float(input('''Ingrese la velocidad
+'''))
+  t=d/v
+  print(t)
+  
+if o>3 or o<1:
+  print("Opción no disponible")
