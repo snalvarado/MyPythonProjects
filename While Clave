@@ -1,0 +1,5 @@
+b=str(input("Adivine la clave: "))
+a = "Hola"
+while b != a:
+  b=str(input("Intente de nuevo :"))
+ 
