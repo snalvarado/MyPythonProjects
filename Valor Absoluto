@@ -1,0 +1,8 @@
+print("VALOR ABSUOLUTO")
+n=int(input("Igrese un número: "))
+
+if n>0:
+  print("El valor absoluto de este número es: "+str(n))
+else:
+  r=n*-1
+  print("El valor absoluto de este número es: "+str(r))
